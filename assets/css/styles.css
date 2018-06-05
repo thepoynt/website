@@ -1,0 +1,44 @@
+@font-face {
+	font-family: walkway;
+    src: url(assets\fonts\Walkway SemiBold.ttf);
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #333;
+	background: linear-gradient(#333, #222);
+	color: #E0E0E0;
+}
+
+h1 {
+	font-size: 120px;
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	font-family: walkway;
+}
+
+h2 {
+	font-size: 40px;
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	font-family: walkway;
+}
+
+h3 {
+	font-size: 20px;
+	width: 100%;
+	margin: 5px auto;
+	text-align: center;
+	font-family: walkway;
+}
+
+.header {
+	margin-top: 200px;
+	padding: 20px 0 30px;
+	background: rgba(255,255,255,0.05);
+}
