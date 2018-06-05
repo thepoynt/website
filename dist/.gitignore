@@ -1,0 +1,2 @@
+# Add an exception for this specifc file (so that we can commit the dist folder).
+!.gitignore
