@@ -1,6 +1,6 @@
 @font-face {
 	font-family: walkway;
-    src: url(assets\fonts\Walkway SemiBold.ttf);
+    src: url(../fonts/Walkway-SemiBold.ttf);
 }
 
 html {
@@ -40,5 +40,23 @@ h3 {
 .header {
 	margin-top: 200px;
 	padding: 20px 0 30px;
-	background: rgba(255,255,255,0.05);
+	-webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    color: rgba(255,255,255,0);
+}
+
+@-webkit-keyframes fadeIn {
+	0% {background: rgba(255,255,255,0); color: rgba(255,255,255,0);}
+	100% {background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.9);}
+}
+@keyframes fadeIn {
+	0% {background: rgba(255,255,255,0); color: rgba(255,255,255,0);}
+	100% {background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.9);}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
 }
